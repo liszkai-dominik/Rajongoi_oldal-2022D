@@ -1,7 +1,7 @@
-* Téma: Űrkutatás
-Liszkai Dominik:
->űrállomás weboldal:
-weboldal készítése az űrállomásokról, képek belinkelése a weboldalra. kártyák készítése az űrállomásokhoz
+Magyar Mátyás
+>Bolygók:
+Általános bemutató a bolygókról és részletes bemutató a naprendszer bolygóiról. 
 
->üzenet/kapcsolat weboldal:
-Üzenet weboldal készítése. Különböző beviteli adatmezők létrehozása.
+>Rólunk:
+Nevünk, telefonszámunk, e-mail címunk és hogy ki mit tett hozzá a csapatmunkához
+
