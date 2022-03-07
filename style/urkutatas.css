@@ -1,0 +1,32 @@
+.btn {
+  text-align: left;  
+}
+.card-img-top {
+    width: 400px;
+    height: 200px;
+}
+.img-mini {
+  width: 200px;
+  height: 120px;
+  float: right;
+}
+.dropdown {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.card {
+  background-color:blue ;
+  margin-top: 20px;
+}
+.card-img-top {
+  margin-top: 20px;
+}
+.card-deck {
+  margin-left: 20px;
+}
+.card-body {
+  color: aliceblue;
+}
+body {
+  background-color: black;
+}
