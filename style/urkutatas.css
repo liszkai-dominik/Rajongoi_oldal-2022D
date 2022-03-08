@@ -29,7 +29,7 @@
 }
 .card-body {
   color: aliceblue;
-  color: red;
+  color:black;
 }
 body {
   background-color:black;
@@ -51,4 +51,7 @@ img {
   height: 120px;
   margin-right: 0px;
   margin-left: 15px;
+}
+.card-group {
+  margin-top: 500px;
 }
