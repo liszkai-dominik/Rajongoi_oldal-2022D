@@ -1,20 +1,26 @@
 h1 {
   font-size: 25px;
-  color: whit;
+  color: white;
  text-align: center;
  margin: auto;
  font-weight: bold;
+ padding-top: 15%;
 }
 
 p {
-  color: whit;
+  color: white;
   text-align: center;
   margin: auto;
   font-weight: bold;
+  padding-bottom: 15%;
 }
 
 body {
-
+background-image: url("/források/kepek/navbar-kép.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+ background-position: center;
 }
 
 
