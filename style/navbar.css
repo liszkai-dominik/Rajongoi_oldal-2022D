@@ -1,27 +1,25 @@
-h1 {
-  font-size: 25px;
-  color: white;
- text-align: center;
- margin: auto;
- font-weight: bold;
- padding-top: 15%;
+
+.nav-item:hover::after {
+    width: 100%;
 }
 
-p {
-  color: white;
-  text-align: center;
-  margin: auto;
-  font-weight: bold;
-  padding-bottom: 15%;
+.navbar-dark .navbar-nav .active>.nav-link,
+ .navbar-dark .navbar-nav .nav-link.active,
+ .navbar-dark .navbar-nav .nav-link.show,
+ .navbar-dark .navbar-nav .show>.nav-link,
+ .navbar-dark .navbar-nav .nav-link:focus,
+ .navbar-dark .navbar-nav .nav-link:hover {
+     color: white;
+     border-bottom: 2px solid white;
+ }
+ .nav-item::after {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 1.5px;
+    transition: 0.4s;
+    background-color: white;
 }
 
-body {
-background-image: url("/források/kepek/navbar-kép.jpg");
-background-repeat: no-repeat;
-background-size: cover;
-background-attachment: fixed;
- background-position: center;
-}
 
-.navbar-brand {
-}
+   
