@@ -3,11 +3,9 @@
   height: 100%;
   width: 100%;
 }
-
 .rockb::before {
   content: "";
-  background-image: url("/források/kepek/Rocket-papero.jpg");
-  background-size: cover;
+  background-color: black;
   opacity: 0.75;
   top: 0px;
   right: 0px;
@@ -17,7 +15,6 @@
   position: absolute;
   background-attachment: fixed;
 }
-
 h2,
 h1,
 p,
@@ -25,16 +22,13 @@ br {
   position: relative;
   font-weight: bold;
   font-size: 20px;
-}
-.rockb li {
-  position: relative;
-  font-weight: bold;
-}
-.rockb ul {
-  position: relative;
-  font-weight: bold;
+  color: white;
 }
 .text {
   margin-left: 20px;
   margin-right: 20px;
+  position: relative;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
 }
