@@ -17,27 +17,20 @@
   position: absolute;
   background-attachment: fixed;
 }
-h1 {
+
+h2,
+h1,
+p,
+br {
   position: relative;
   font-weight: bold;
-}
-p {
-  position: relative;
-  font-weight: bold;
-}
-h2 {
-  position: relative;
-  font-weight: bold;
+  font-size: 20px;
 }
 .rockb li {
   position: relative;
   font-weight: bold;
 }
 .rockb ul {
-  position: relative;
-  font-weight: bold;
-}
-br {
   position: relative;
   font-weight: bold;
 }
