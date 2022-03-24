@@ -27,11 +27,11 @@
   margin-bottom: 50px;
 }
 .card {
-  background-color:gray ;
+  background-color:rgb(221, 246, 248) ;
   margin-top: 30px;
-  margin-right: 20px;
-  margin-left: 20px;
-  box-shadow: 7px 7px red;
+  margin-right: 30px;
+  margin-left: 30px;
+  box-shadow: 0 0 7px 7px blue;
 }
 .card-img-top {
   margin-top: 20px;
@@ -40,7 +40,7 @@
   margin-left: 20px;
 }
 .card-body {
-  color:blue;
+  color:black;
   max-width: 100%;
   height: auto;
 }
@@ -68,4 +68,21 @@ img {
 .card-group {
   margin-top: 250px;
   margin-bottom: 200px;
+}
+.card:hover {
+  transform: scale(1.03);
+}
+.card-img-top:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 3px 3px blue ;
+}
+.dropdown-menu {
+  margin-right: 15px;
+}
+.btn {
+  background-color: blue;
+  margin-right: 15px;
+}
+.pclass {
+  background-color: black;
 }
