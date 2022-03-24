@@ -5,7 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
-    <title>Document</title>
+    <title>Quiz</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style/contact.css">
 </head>
 <body>
   <div class="responsive">
@@ -26,9 +33,6 @@
           <a class="nav-link" href="urallomas.html">Űrállomás</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="nasa.html">Nasa</a>
-        </li>
-        <li class="nav-item">
             <a class="nav-link" href="bolygok.html">Bolygók</a>
           </li>
           <li class="nav-item active">
@@ -40,58 +44,40 @@
     </ul>
       </div>
     </nav>
-    <br>
-    <div id="quiz">
-                  
-      <div class="question">
-          <h3><span class="label label-warning" id="qid">1</span>
-          <span id="question"> How can you add a single line comment in a JavaScript?</span>
-          </h3>
-      </div>
+</div>
+<div class="main-div">
+  <div class="inner-div">
+      <h2 class="question">Qutions Appear HERE </h2>
       <ul>
-        <li>
-          <input type="radio" id="f-option" name="selector" value="1">
-          <label for="f-option" class="element-animation">/*-- comment --*/</label>
-          <div class="check"></div>
-        </li>
-        
-        <li>
-          <input type="radio" id="s-option" name="selector" value="2">
-          <label for="s-option" class="element-animation">comment //</label>
-          <div class="check"><div class="inside"></div></div>
-        </li>
-        
-        <li>
-          <input type="radio" id="t-option" name="selector" value="3">
-          <label for="t-option" class="element-animation">comment [ ]</label>
-          <div class="check"><div class="inside"></div></div>
-        </li>
+          <li>
+              <input type="radio" name="answer" id="ans1" class='answer'>
+              <label for="ans1" id="option1">Answer 1</label>
+          </li>
+          <li>
+              <input type="radio" name="answer" id="ans2" class='answer'>
+              <label for="ans2" id="option2">Answer 2</label>
+          </li>
+          <li>
+              <input type="radio" name="answer" id="ans3" class='answer'>
+              <label for="ans3" id="option3">Answer 3</label>
+          </li>
+          <li>
+              <input type="radio" name="answer" id="ans4" class='answer'>
+              <label for="ans4" id="option4">Answer 4</label>
+          </li>
       </ul>
-  </div>
-<div class="text-muted">
-  <span id="answer"></span>
-</div>
-<div class="row">
-  <div class="col-sm-8 col-sm-offset-2">
-      <div id="result-of-question" class="pulse animated" style="display: none;">
-          <span id="totalCorrect" class="pull-right"></span>
-          <table class="table table-hover table-responsive" >
-              <thead>
-                  <tr>
-                      <th>Question No.</th>
-                      <th>Our answer</th>
-                      <th>Your answer</th>
-                      <th>Result</th>
-                  </tr>
-              </thead>
-              <tbody id="quizResult"></tbody>
-          </table>
+      <button id="submit" class="btn btn-block  text-uppercase" >SUBMIT </button>
+
+      <div id="showScore" class="scoreArea">
+
       </div>
   </div>
 </div>
-
+<script src="style/contact.js" ></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
+
+
