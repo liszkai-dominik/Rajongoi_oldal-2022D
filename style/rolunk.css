@@ -16,13 +16,12 @@
 .card {
     margin-top: 150px;
     margin-bottom: 150px;
-    background-color: white;
+    background-color: rgb(221, 246, 248);
     margin-right: 40px;
     margin-left: 40px;
     color: black;
-    box-shadow: 5px 5px 5px 5px blue;
-
-
+    box-shadow: 0 0 5px 10px blue;
+    transition: all .3s;
 }
 
 .valami {
@@ -39,8 +38,8 @@
 
 .sherco{
     width: auto;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 body{
@@ -49,4 +48,8 @@ body{
 
 .btn{
     background-color: blue;
+}
+
+.card:hover{
+    transform: scale(1.05);
 }
