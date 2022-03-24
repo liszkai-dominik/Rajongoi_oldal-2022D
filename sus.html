@@ -8,20 +8,52 @@
     <title>Document</title>
 </head>
 <body>
-    <p>
-        <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-          Link with href
-        </a>
-        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-          Button with data-target
-        </button>
-      </p>
-      <div class="collapse" id="collapseExample">
-        <div class="card card-body">
-            <img src="/források/kepek/Robert. H.png" alt="sus">
-            Robert Hutchings Goddard amerikai mérnök, professzor, fizikus és feltaláló volt, aki a világ első folyékony tüzelésű rakétájának megalkotásában és megépítésében volt. Goddard 1926. március 16-án sikeresen elindította rakétáját, ami az űrrepülés és az innováció korszakát nyitotta meg.
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalScrollable">
+    Konstantin Ciolkovsky
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalScrollableTitle">Konstantin Ciolkovsky</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<img src="/források/kepek/ciolsky.png" alt="ciolsky">
+          </button>
+        </div>
+        <div class="modal-body">
+            <p>Konsztantyin Eduardovics Ciolkovszkij (oroszul: Константи́н Эдуа́рдович Циолко́вский; 1857. szeptember 17. [O.S. szeptember 5.] 1935. szeptember 19.) orosz és szovjet rakétatudós volt. A francia Robert Esnault-Pelterie, az erdélyi német Hermann Oberth és az amerikai Robert H. Goddard mellett a modern rakéta- és űrhajózás egyik alapító atyja.  Munkái később a vezető szovjet rakétamérnököket, Szergej Koroljovet és Valentin Gluskot inspirálták, akik hozzájárultak a szovjet űrprogram sikeréhez.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
         </div>
       </div>
+    </div>
+  </div>
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#rob">
+    Robert H. Goddard
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="rob" tabindex="-1" role="dialog" aria-labelledby="robh" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="robh">Robert H. Goddard</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<img src="/források/kepek/Robert. H.png" alt="ciolsky">
+          </button>
+        </div>
+        <div class="modal-body">
+            <p>Robert Hutchings Goddard amerikai mérnök, professzor, fizikus és feltaláló volt, aki a világ első folyékony tüzelésű rakétájának megalkotásában és megépítésében volt. Goddard 1926. március 16-án sikeresen elindította rakétáját, ami az űrrepülés és az innováció korszakát nyitotta meg.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
