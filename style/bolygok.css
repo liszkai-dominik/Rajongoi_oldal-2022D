@@ -6,6 +6,27 @@
     max-width: 100%;
     height: auto;
   }
+  .card{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    background-color: rgb(221, 246, 248);
+    margin-right: 40px;
+    margin-left: 40px;
+    color: black;
+    box-shadow: 0 0 5px 10px blue;
+    transition: all .3s;
+  }
+
 body{
     background-color: black;
+}
+.btn{
+  background-color: blue;
+}
+
+.card:hover{
+  transform: scale(1.05);
+}
+.rounded{
+  margin-top: 5px;
 }
