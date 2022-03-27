@@ -1,0 +1,24 @@
+.text {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  .dropdown {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: auto;
+    margin-bottom: 50px;}
+    
+  .responsive {
+    max-width: 100%;
+    height: auto;
+  }
+  .budcolor {
+  background-color: #666666;
+  color: white;
+  background-size: cover;
+  }
+  .modal {
+    color: black;
+  }
+  
