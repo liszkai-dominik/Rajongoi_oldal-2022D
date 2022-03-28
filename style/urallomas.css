@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 .text {
   margin-left: 20px;
   margin-right: 20px;
