@@ -17,14 +17,13 @@ body{
     background: rgba(0,0,0,0.2);
 }
 .inner-div{
-    width: 50vw;
+    width: 60vw;
     background:white;
     padding: 2rem 2rem;
     border-radius: .2rem;
     box-shadow: 0 0 10px 5px blue;
     color: blue;
     border-radius: 15px;
-
 }
 .inner-div h2 {
     letter-spacing: .8px;
