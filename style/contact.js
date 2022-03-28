@@ -31,6 +31,22 @@ const qiuzDB = [
         d : 'JavaShop',
         ans : 'ans1'
     },
+    {
+        question : 'Question3: Hogy hívják a NASA marsjáróját ?',
+        a : 'STS-41-D',
+        b : 'Apollo-11',
+        c : 'Perseverance',
+        d : 'Tienven-1',
+        ans : 'ans3'
+    },
+    {
+        question : 'Question3: Hogy hívják a NASA marsjáróját ?',
+        a : 'STS-41-D',
+        b : 'Apollo-11',
+        c : 'Perseverance',
+        d : 'Tienven-1',
+        ans : 'ans3'
+    },
 ]
 
 const question = document.querySelector('.question');
