@@ -30,3 +30,7 @@ body{
 .rounded{
   margin-top: 5px;
 }
+.nav-link:hover {
+  background-color: blue;
+  border-radius: 20px;
+}

@@ -111,3 +111,7 @@ body {
 .inner-div ul li:hover {
     transform: scale(1.05);  
 }
+.nav-link:hover {
+    background-color: blue;
+    border-radius: 20px;
+  }
