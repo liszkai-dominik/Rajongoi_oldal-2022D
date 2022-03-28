@@ -25,3 +25,9 @@
   background-color: white;
 }
 
+body:not(.modal-open){
+  padding-right: 0px !important;
+}
+.modal {
+  color: black
+}
