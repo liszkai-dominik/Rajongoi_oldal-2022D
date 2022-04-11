@@ -24,12 +24,28 @@ const qiuzDB = [
         ans : 'ans3'
     },
     {
-        question : 'Question4: What is the full form of JS ?',
-        a : 'JavaScript',
-        b : 'JavaShell',
-        c : 'JavaServer',
-        d : 'JavaShop',
+        question : 'Question4: Hány űrhajós járt eddig az űrben ?',
+        a : '~235',
+        b : 'több mint 400',
+        c : 'több mint 850',
+        d : '~1000',
+        ans : 'ans2'
+    },
+    {
+        question : 'Question5: Melyik naprendszerbeli bolygó a legnagyobb ?',
+        a : 'Jupiter',
+        b : 'Neptunusz',
+        c : 'Szaturnusz',
+        d : 'Föld',
         ans : 'ans1'
+    },
+    {
+        question : 'Question6: Melyik naprendszerbeli bolygónak van a legtöbb holdja ?',
+        a : 'Uránusz',
+        b : 'Jupiter ',
+        c : 'Szaturnusz ',
+        d : 'Neptunusz',
+        ans : 'ans3'
     },
 ]
 
@@ -86,7 +102,7 @@ Submit.addEventListener('click', () => {
     else{
         
         totalScore.classList.remove('scoreArea');
-        totalScore.innerHTML = `<h3>Your total score is :<span id='score'>${score}</span></h3>
+        totalScore.innerHTML = `<h3>Your total score is :<span id='score'>${score}/6</span></h3>
         <button class = 'btn' onclick='location.reload()' >Try again?</button>`;
     }
 });

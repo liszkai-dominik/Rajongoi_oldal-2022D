@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 .text {
   margin-left: 20px;
   margin-right: 20px;
@@ -67,7 +70,7 @@ img {
   margin-left: 15px;
 }
 .card-group {
-  margin-top: 250px;
+  margin-top: 100px;
   margin-bottom: 200px;
 }
 .card:hover {
@@ -85,5 +88,9 @@ img {
   margin-right: 15px;
 }
 .pclass {
-  background-color: black;
+  background-color:rgb(221, 246, 248) ;
+}
+.nav-link:hover {
+  background-color: blue;
+  border-radius: 20px;
 }
