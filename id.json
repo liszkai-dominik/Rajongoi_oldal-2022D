@@ -1,0 +1,39 @@
+[
+    {
+      "_id": 1,
+      "locationName": "Denmark"
+    },
+    {
+      "_id": 2,
+      "locationName": "Switzerland"
+    },
+    {
+      "_id": 3,
+      "locationName": "France"
+    },
+    {
+      "_id": 4,
+      "locationName": "Britain"
+    },
+    {
+      "_id": 5,
+      "locationName": "USSR"
+    },
+    {
+      "_id": 6,
+      "locationName": "north Africa"
+    },
+    
+      {"_id": 7,
+      "locationName": "China"
+      },
+      {"_id": 8,
+      "locationName":"USSR"
+      },
+     {"_id": 9,
+      "locationName":"Normandy",
+     },
+     { "_id": 10,
+      "locationName":"Japan"
+     }
+ ]
