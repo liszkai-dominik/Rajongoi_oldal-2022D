@@ -17,12 +17,12 @@ body{
     background: rgba(0,0,0,0.2);
 }
 .inner-div{
-    width: 40vw;
-    background:#fff;
+    width: 60vw;
+    background:white;
     padding: 2rem 2rem;
     border-radius: .2rem;
-    box-shadow: 0 0 9px 3px lime;
-    color: lime;
+    box-shadow: 0 0 10px 5px blue;
+    color: blue;
     border-radius: 15px;
 }
 .inner-div h2 {
@@ -79,7 +79,8 @@ span, score{
 }
 .btn{
     
-    background: lime;
+    background: blue;
+    color: white;
     padding: .5rem 1rem;
     border-radius: 3px;
     outline: none;
@@ -111,3 +112,12 @@ body {
 .inner-div ul li:hover {
     transform: scale(1.05);  
 }
+.nav-link:hover {
+    background-color: blue;
+    border-radius: 20px;
+  }
+  .answer {
+      margin-left: 15px;
+  }
+  
+      

@@ -20,8 +20,9 @@
   color: white;
   background-size: cover;
   }
-  .modal {
-    color: black;
+  .nav-link:hover {
+    background-color: blue;
+    border-radius: 20px;
   }
   body:not(.modal-open){
     padding-right: 0px !important;

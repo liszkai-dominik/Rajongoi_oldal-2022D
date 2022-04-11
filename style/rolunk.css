@@ -53,3 +53,12 @@ body{
 .card:hover{
     transform: scale(1.05);
 }
+.nav-link:hover {
+    background-color: blue;
+    border-radius: 20px;
+  }
+  .img:hover {
+        margin-top: 12px;
+          transform: scale(1.03);
+          box-shadow: 0 0 3px 3px blue ;
+  }
