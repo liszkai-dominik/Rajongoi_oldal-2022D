@@ -1,0 +1,32 @@
+[
+    {
+      "_id": 1,
+      "locationName": "Solar System 1.Planet"
+    },
+    {
+      "_id": 2,
+      "locationName": "Solar System 2.Planet"
+    },
+    {
+      "_id": 3,
+      "locationName": "Solar System 3.Planet"
+    },
+    {
+      "_id": 4,
+      "locationName": "Solar System 4.Planet"
+    },
+    {
+      "_id": 5,
+      "locationName": "Solar System 5.Planet"
+    },
+    {
+      "_id": 6,
+      "locationName": "Solar System 6.Planet"
+    },
+      {"_id": 7,
+      "locationName": "Solar System 7.Planet"
+      },
+      {"_id": 8,
+      "locationName":"Solar System 8.Planet"
+      }
+    ]
