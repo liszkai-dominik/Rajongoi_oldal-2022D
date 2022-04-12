@@ -7,7 +7,7 @@
 "satelitenumber":0,
 "temperature":"167 °C",
 "location": 1,
-"pictureUrl":"https://github.com/liszkai-dominik/Rajongoi_oldal-2022D/források/kepek/json/mercury.jpg"
+"pictureUrl":"http://elit.jedlik.eu/bolygok/mercury.jpg"
 },
 {"_id": 2,
 "PlanetName": "Venus",
@@ -17,7 +17,7 @@
 "satelitenumber":0,
 "temperature":"464°C",
 "location": 2,
-"pictureUrl":"https://github.com/liszkai-dominik/Rajongoi_oldal-2022D/források/kepek/json/venus.jpg"
+"pictureUrl":"http://elit.jedlik.eu/bolygok/venus.jpg"
 },
 {"_id": 3,
 "PlanetName": "Earth",
@@ -27,7 +27,7 @@
 "satelitenumber":1,
 "temperature":"15 °C",
 "location": 3,
-"pictureUrl":"https://github.com/liszkai-dominik/Rajongoi_oldal-2022D/források/kepek/json/earth.jpg"
+"pictureUrl":"http://elit.jedlik.eu/bolygok/earth.jpg"
 },
 {"_id": 4,
 "PlanetName": "Mars",
@@ -37,7 +37,7 @@
 "satelitenumber":2,
 "temperature":"-65 °C",
 "location": 4,
-"pictureUrl":"https://github.com/liszkai-dominik/Rajongoi_oldal-2022D/források/kepek/json/mars.jpg"
+"pictureUrl":"http://elit.jedlik.eu/bolygok/mars.jpg"
 },
 {"_id": 5,
     "PlanetName": "Jupiter",
@@ -47,7 +47,7 @@
     "satelitenumber":80,
     "temperature":"-110 °C",
     "location": 5,
-    "pictureUrl":"https://github.com/liszkai-dominik/Rajongoi_oldal-2022D/források/kepek/json/jupiter.jpg"
+    "pictureUrl":"http://elit.jedlik.eu/bolygok/jupiter.jpg"
 },
 {"_id": 6,
     "PlanetName": "Saturn",
@@ -57,7 +57,7 @@
     "satelitenumber":83,
     "temperature":"-140 °C",
     "location": 6,
-    "pictureUrl":"https://github.com/liszkai-dominik/Rajongoi_oldal-2022D/források/kepek/json/saturn.jpg"
+    "pictureUrl":"http://elit.jedlik.eu/bolygok/saturn.jpg"
 },
 {"_id": 7,
     "PlanetName": "Uranus",
@@ -67,7 +67,7 @@
     "satelitenumber":27,
     "temperature":"-195 °C",
     "location": 7,
-    "pictureUrl":"https://github.com/liszkai-dominik/Rajongoi_oldal-2022D/források/kepek/json/uranus.jpg"
+    "pictureUrl":"http://elit.jedlik.eu/bolygok/uranus.jpg"
 },
 {"_id": 8,
 "PlanetName": "Neptune",
@@ -77,6 +77,6 @@
 "satelitenumber":14,
 "temperature":"-200 °C",
 "location": 8,
-"pictureUrl":"https://github.com/liszkai-dominik/Rajongoi_oldal-2022D/források/kepek/json/neptune.jpg"
+"pictureUrl":"http://elit.jedlik.eu/bolygok/neptune.jpg"
  }
 ]

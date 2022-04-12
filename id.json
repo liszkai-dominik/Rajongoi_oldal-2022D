@@ -1,39 +1,39 @@
 [
     {
       "_id": 1,
-      "locationName": "Denmark"
+      "locationName": "Solar System"
     },
     {
       "_id": 2,
-      "locationName": "Switzerland"
+      "locationName": "Solar System"
     },
     {
       "_id": 3,
-      "locationName": "France"
+      "locationName": "Solar System"
     },
     {
       "_id": 4,
-      "locationName": "Britain"
+      "locationName": "Solar System"
     },
     {
       "_id": 5,
-      "locationName": "USSR"
+      "locationName": "Solar System"
     },
     {
       "_id": 6,
-      "locationName": "north Africa"
+      "locationName": "Solar System"
     },
     
       {"_id": 7,
-      "locationName": "China"
+      "locationName": "Solar System"
       },
       {"_id": 8,
-      "locationName":"USSR"
+      "locationName":"Solar System"
       },
      {"_id": 9,
-      "locationName":"Normandy"
+      "locationName":"Solar System"
      },
      { "_id": 10,
-      "locationName":"Japan"
+      "locationName":"Solar System"
      }
  ]
